@@ -68,9 +68,10 @@ define([
     var cm_config = Cell.options_default.cm_config;
     cm_config.keyMap = 'vim';
     cm_config.extraKeys = $.extend(cm_config.extraKeys || {}, {
-      'Esc': CodeMirror.prototype.leaveInsertMode,
+      //'Esc': CodeMirror.prototype.leaveInsertMode,
+      'Ctrl-C': CodeMirror.prototype.leaveInsertMode,
       'Shift-Esc': CodeMirror.prototype.leaveNormalMode,
-      'Ctrl-C': false,  // To enable clipboard copy
+      //'Ctrl-C': false,  // To enable clipboard copy
     });
 
     // Apply default CodeMirror config to existing CodeMirror instances
