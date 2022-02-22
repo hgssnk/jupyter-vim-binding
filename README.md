@@ -5,8 +5,8 @@
 ``` bash
 # install themes
 pip install jupyterthemes
-# theme and color
-jt -t gruvboxd
+# theme setting
+jt -t solarizedd
 ```
 
 Add to css
