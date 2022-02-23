@@ -6,7 +6,7 @@
 # install themes
 pip install jupyterthemes
 # theme setting
-jt -t solarizedd
+jt -t gruvboxd
 ```
 
 Add to css
