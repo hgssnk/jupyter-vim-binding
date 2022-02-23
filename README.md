@@ -20,6 +20,10 @@ background-color: #000000 !important;
 .edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
 background-color: #000000 !important;
 }
+/* images background-color */
+div.output_subarea {
+  background-color: #DACCA7;
+}
 ```
 
 ## vim installation
