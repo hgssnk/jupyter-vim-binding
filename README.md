@@ -1,15 +1,15 @@
 # jupyter-vim-binding
 
-## theme
+## jupytertheme installation
 
 ``` bash
 # install themes
 pip install jupyterthemes
-# theme setting
+# setting theme
 jt -t gruvboxd
 ```
 
-Add to css
+add to css
 
 ```css:~/.jupyter/custom/custom.css
 /* Jupyter cell is in normal mode when code mirror */
